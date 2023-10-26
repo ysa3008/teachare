@@ -1,0 +1,178 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: #f0ffff;
+}
+
+.cabecalho {
+  width: 100vw;
+  background-color: #382960;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cabecalho-esquerda {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: cemter;
+}
+
+
+.cabecalho-direita {
+  width: 50vw;
+  display: flex;
+  justify-content: right;
+  align-items: cemter;
+
+}
+
+.cabecalho-esquerda img {
+  width: 20%;
+}
+
+.menu {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* alinhar itens na horizontal*/
+  align-items: center;
+  /* vertical*/
+}
+
+.menu ul {
+  width: 70vw;
+}
+
+.menu li {
+  display: inline;
+  margin: 25px;
+
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #382960;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #382800;
+}
+
+.principal {
+  width: 100vw;
+  color: #382960;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linha {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 20px 20px 20px 2px #38296050;
+  border-radius: 5px;
+
+}
+
+.coluna {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.rodape {
+  width: 100vw;
+  background-color: #382960;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registro {
+  position: absolute;
+  /* relativo a pagina*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  background-color: #fff;
+  color: #382960;
+  padding: 45px;
+  border-radius: 15px;
+  display: none;
+}
+
+.form {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.campo-texto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.campo-texto input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 12pt;
+  box-shadow: 2px 2px 2px 2px #382960;
+
+}
+
+.botoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.bt-cancelar {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #382960;
+  color: #f0ffff94;
+  cursor: pointer;
+}
+
+.bt-salvar {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #382960;
+  color: #f0ffff94;
+  cursor: pointer;
+}
+
+.bt_add {
+  width: 25%;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #382960;
+  color: #f0ffff94;
+  cursor: pointer;
+}

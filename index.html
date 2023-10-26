@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho-esquerda">
+      <img src="teachare.png">
+    </div>
+    <div class="cabecalho-direita">
+      <h4>Ola, Prof Yslla! </h4>
+    </div>
+  </header>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#">Inicial</a> </li>
+      <li><a href="#">Professores</a></li>
+      <li><a href="#">Relatorios</a></li>
+      <li><a href="#">Sair</a></li>
+    </ul>
+  </nav>
+
+  <main class="principal">
+    <h3>Substituições</h3>
+    <button class="bt_add">Adicionar Nova Substituição</button>
+    <div class="linha">
+      <div class="coluna">
+        <h4>Código</h4>
+      </div>
+      <div class="coluna">
+        <h4>Professor</h4>
+      </div>
+      <div class="coluna">
+        <h4>Turma</h4>
+      </div>
+      <div class="coluna">
+        <h4>Dia</h4>
+      </div>
+      <div class="coluna">
+        <h4>Horário</h4>
+      </div>
+    </div>
+    <div id="dinamico">
+
+    </div>
+  </main>
+
+  <div class="registro">
+    <div class="form">
+      <div class="campo-texto">
+        <label>Curso:</label>
+        <input type="text" id="curso">
+      </div <div class="campo-texto">
+      <label>Série:</label>
+      <input type="text" id="serie">
+    </div>
+    <div class="campo-texto">
+      <label>Data:</label>
+      <input type="date" id="data">
+    </div>
+    <div class="campo-texto">
+      <label>Horario:</label>
+      <input type="time" id="inicio">
+      <input type="time" id="fim">
+    </div>
+    <div class="botoes">
+      <button class="bt-cancelar">cancelar </button>
+      <button class="bt-salvar">Salvar</button>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  <footer class="rodape">
+    <p>Criado pela turma do SisEdu - Módulo 2-2023/M1</p>
+  </footer>
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+
+
+
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
